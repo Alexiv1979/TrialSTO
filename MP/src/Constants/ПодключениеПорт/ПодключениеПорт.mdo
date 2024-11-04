@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5be734f5-ee0d-4724-9144-989049c07704">
+  <producedTypes>
+    <managerType typeId="151a1261-fbd0-4752-b393-27e359160c21" valueTypeId="04538384-5b0a-4faf-b1a3-555f6e3144bd"/>
+    <valueManagerType typeId="27d46452-6243-41dd-9478-9c1e2e3a4a75" valueTypeId="7aaa17dc-51d6-4277-837f-1e822ff3392b"/>
+    <valueKeyType typeId="ea6de72c-26a9-470e-817e-184f2b6d0bfe" valueTypeId="ed08594f-15b6-4a0d-8abc-221609e51c62"/>
+  </producedTypes>
+  <name>ПодключениеПорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение порт</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0a4c632-fbc8-4c14-bfda-bd0aaa738762">
+  <producedTypes>
+    <refType typeId="3f79688d-817f-483d-8871-a79b67b1995a" valueTypeId="7e40e8c2-2608-49b3-aff3-b911025fe173"/>
+    <listType typeId="85546d68-dce6-4bfc-83fd-05864909223c" valueTypeId="482ca1fc-b548-4e77-b41a-406b3fb2d936"/>
+    <managerType typeId="efb05d0f-d670-43f8-8149-1804fb34c1c2" valueTypeId="aadfbd34-f092-43be-a206-79b4f126d8e2"/>
+  </producedTypes>
+  <name>ВидыПроводимогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды проводимого осмотра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1d232d82-d910-4cb9-b562-8141619738e7">
+    <name>СостояниеЛобовгоСтекла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние лобового стекла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86c67f26-1a91-4848-b2d5-26ff3ac12a8f">
+    <name>СостояниеНаружнихЗеркалИОстекления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние наружних зеркал и остекления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5b5051a-c647-4af3-bcb5-62f1bca7657d">
+    <name>СтатусИндикаторовПослеЗапускаДвигателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус индикаторов после запуска двигателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3876bf95-1fab-4489-b876-a805f7f8b46d">
+    <name>СостояниеЗвукогоСигнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние звукого сигнала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a421b11-2e47-4acd-bcb2-64b5219bcc51">
+    <name>СостояниеЩетокСтеклоотчистителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние щеток стеклоотчистителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3698736f-4bba-4ca0-91c2-1b3c7fa18e41">
+    <name>ШумыПриРаботеДвигателяНаНейтральнойПередаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шумы при работе двигателя на нейтральной передаче</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa149cb4-f5a6-4929-b5de-e4be5a93b87d">
+    <name>СостояниеВнутреннегоОсвещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние внутреннего освещения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d35ae25-8646-4910-b52d-477da4a74ee1">
+    <name>ПовышенныйИзносПовреждениеШин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повышенный износ повреждение шин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1319d5ae-0ecc-413d-9b8b-9f7327364b17">
+    <name>НаружнееПовреждениеКузова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наружнее повреждение кузова</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="623c6e92-6a77-48ad-bd26-05968ea7b145">
+    <name>ДоступКАКБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступ к АКБ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52abd93e-7ccf-40ca-875e-b0870cb6f923">
+    <name>НаличиеДополнительногоОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие дополнительного оборудования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2176ad0c-d2b1-4181-af5e-f68246479650">
+    <name>НаличиеВыключателяМассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличие выключателя массы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdb56866-a62f-40d6-a78b-523bed05d12a">
+    <name>СостояниеНаружнегоОсвещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние наружнего освещения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="919c125e-669e-44f3-b326-a05992e39208">
+    <name>УровеньМоторногоМасла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень моторного масла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7880a67b-b90a-478f-8ca0-57351872e690">
+    <name>УровеньОхлаждающейЖидкости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень охлаждающей жидкости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d53629f0-fda7-49aa-a651-eaf7653a4ecb">
+    <name>СлышимыеУтечкиВоздуха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слышимые утечки воздуха</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e42dc66b-8354-4c48-82b9-5751f08a4b24">
+    <name>УровеньТормознойЖидкости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень тормозной жидкости</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6750b0b4-070f-477a-843e-61f097b7adfb">
+    <name>ВидимыеПодтекиМаслаИЖидкостиИзУплотинтелей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимые подтеки масла и жидкости из уплотинтелей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bec42adb-6dd9-496f-a3b6-1002992ee646">
+    <name>СостояниеКрепленийБаковИПодтеки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние креплений баков и подтеки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6163198a-49e3-4aa1-abd4-9ff407aae292">
+    <name>ВидимыТрещиныПружинВоздушныхПодушек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Видимы трещины пружин/воздушных подушек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa61d170-fc99-42a2-99dd-1dc9294be28e">
+    <name>ПодтекиАмортизаторовСостояниеИхКреплений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтеки амортизаторов состояние их креплений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2de930bc-b70b-43fa-a366-1080a364da76">
+    <name>ГерметичностьСистемыВыпускаОтработанныхГазов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Герметичность системы выпуска отработанных газов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1294f7a0-b4e7-47e7-b973-0edb879abf9c">
+    <name>ПроверкаЭлементовКарданнойПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка элементов карданной передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfa5d651-16bb-4220-b011-80f7d5c27b4e">
+    <name>ЛюфтКрепленийСтабилизаторовИТорсионов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Люфт креплений стабилизаторов и торсионов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24271ad8-c7e2-4e4b-8133-13204b1b9625">
+    <name>ЛюфтРулевыхТягНаконечников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Люфт рулевых тяг/наконечников</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8aac1fb-a216-4594-8836-8002a28b6d6a">
+    <name>ЛюфтВтулокРессор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Люфт втулок рессор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76d183a0-28b6-48a5-a7b1-573bc12074b9">
+    <name>ВизуальныйОсмоторАккумуляторныхБатарейКлемм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Визуальный осмотор аккумуляторных батарей/клемм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16219576-16b7-4fa3-89f9-6dc4c50fbed0">
+    <name>СостояниеТормознойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние тормозной системы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdd7d9fe-c0e6-4810-a4bc-943c51db4073">
+    <name>МаркаТипШин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка и тип шин</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dfcdfaa-d93a-4774-9b0c-67e9174658a0">
+    <name>СостояниеРВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние РВД</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

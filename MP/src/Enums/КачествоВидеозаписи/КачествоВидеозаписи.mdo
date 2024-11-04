@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfa2ee39-49d4-4a7b-a2de-424dc56b1652">
+  <producedTypes>
+    <refType typeId="54a6e0a7-7667-4d49-91fc-1440b48e9e36" valueTypeId="6aca5115-49f4-430d-91a2-1ac4b31e6e05"/>
+    <listType typeId="161d0274-491a-40c0-94ae-0bdadbd7a3c4" valueTypeId="2c7795f5-a6da-4a54-82a7-1324885a08c2"/>
+    <managerType typeId="e1c3a33f-89dd-47d8-baa6-3b6fbe255408" valueTypeId="cb1523be-750e-4888-b632-db1d8e7a1598"/>
+  </producedTypes>
+  <name>КачествоВидеозаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество видеозаписи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c17c71c2-bd84-46fd-964d-326878b29827">
+    <name>Авто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3084faf5-101f-494c-bc81-6e471399f33d">
+    <name>Низкое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6659d4cd-28bf-48f5-bf8c-e2f3d1da2d6d">
+    <name>Высокое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

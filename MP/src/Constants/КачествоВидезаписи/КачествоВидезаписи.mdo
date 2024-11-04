@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40f6a2ef-f01d-45d1-bbbb-35a10f1b0ca2">
+  <producedTypes>
+    <managerType typeId="e44d9220-de26-4ccc-8ac1-e2d9db231d7f" valueTypeId="f98a19e9-8ac8-4e82-9e31-5a35f3df5b5c"/>
+    <valueManagerType typeId="d0cf4dfd-13ad-4bbb-a781-8a1689e34597" valueTypeId="14a0d39a-b4f5-43bc-b532-f59f6e0b0598"/>
+    <valueKeyType typeId="44186eb9-5c7a-46d3-8fb5-8cbc8264b5ec" valueTypeId="22a6c053-e741-4cd5-ae78-53c813b325a5"/>
+  </producedTypes>
+  <name>КачествоВидезаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество видезаписи</value>
+  </synonym>
+  <type>
+    <types>EnumRef.КачествоВидеозаписи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

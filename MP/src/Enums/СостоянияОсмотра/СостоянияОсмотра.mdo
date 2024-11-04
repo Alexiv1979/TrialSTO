@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc88a4a-0705-467a-8b5c-ffc13bd80e9c">
+  <producedTypes>
+    <refType typeId="c3704fdc-2577-4b26-b2eb-e4cd5832a095" valueTypeId="635425a4-f03d-49d4-9f27-3e7903407d85"/>
+    <listType typeId="61623086-2a82-4b95-9b60-fb223f7c15e3" valueTypeId="6772a642-e64a-486c-8564-b1a25b74091a"/>
+    <managerType typeId="116b34b3-97d5-40cf-a85f-27511e4482dc" valueTypeId="5b761346-a821-41f0-9776-b770fc9f5817"/>
+  </producedTypes>
+  <name>СостоянияОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния осмотра заказ-нарядов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eef7a0ca-3acc-44c1-a040-f52b8a905e5d">
+    <name>НачатьОсмотр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осмотр начат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5842864-3394-4a8d-82ba-589bce7b7c2a">
+    <name>ОсмотрЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осмотр завершен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

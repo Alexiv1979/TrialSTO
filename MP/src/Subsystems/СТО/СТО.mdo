@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fccf8f8-a091-4836-a923-01455baeb7ea">
+  <name>СТО</name>
+  <synonym>
+    <key>ru</key>
+    <value>СТО</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказНаряд</content>
+  <content>Catalog.Автомобили</content>
+</mdclass:Subsystem>

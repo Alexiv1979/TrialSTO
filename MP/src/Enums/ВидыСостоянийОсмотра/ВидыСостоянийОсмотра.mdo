@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f7500f-fecf-425a-8d5d-fe8a6229be82">
+  <producedTypes>
+    <refType typeId="0e7eb28e-b9b5-4abd-89d7-f51e45fa96d9" valueTypeId="d37ebc8d-9334-4129-a3aa-37fce3560c4a"/>
+    <listType typeId="a387abdf-1c8c-4d7c-a434-f7ac21435d0d" valueTypeId="d21e2536-d293-4017-9020-6f74d6e9157e"/>
+    <managerType typeId="57267477-fab5-49e1-8e98-b53a57a458e9" valueTypeId="8514dac2-7ef6-4255-833c-60fb976269d7"/>
+  </producedTypes>
+  <name>ВидыСостоянийОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды состояний осмотра</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa133e18-66be-47ba-bc08-7f6b265b9a1e">
+    <name>Ок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad56efd5-fde6-4d24-93b3-f8fe1288d97d">
+    <name>Удов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d150721f-1d84-4380-b3e5-dc70db6e7cdd">
+    <name>Крит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94b75d4a-db26-4846-a67a-33ded1241457">
+    <name>НеУказан</name>
+    <synonym>
+      <key>ru</key>
+      <value>&lt;...></value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

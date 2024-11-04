@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8b61a6f-b051-437f-aa07-ef77b342411e">
+  <name>ОчиститьОчередьВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистить очередь выгрузки</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

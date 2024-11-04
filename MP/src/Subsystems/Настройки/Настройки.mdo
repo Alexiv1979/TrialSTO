@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d03877a1-3896-4d08-8886-f27cd986cf2a">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ФормаНастроек</content>
+  <content>ExchangePlan.МобильныйОбмен</content>
+  <content>Constant.КачествоФото</content>
+  <content>Constant.РазрешениеФотоШирина</content>
+  <content>Constant.РазрешениеФотоВысота</content>
+  <content>Constant.ИспользоватьГолосовойВвод</content>
+  <content>Constant.ИмяПубликации</content>
+  <content>Constant.ПодключениеПароль</content>
+  <content>Constant.ПодключениеЛогин</content>
+  <content>Constant.ПодключениеПорт</content>
+  <content>Constant.ПодключениеСервер</content>
+  <content>Constant.УзелДляОбменаСЦентральнойБазой</content>
+  <content>Catalog.Пользователи</content>
+  <content>Constant.Пользователь</content>
+  <content>InformationRegister.НастройкиДоступаВидовПроводимогоОсмотра</content>
+  <content>Report.ОбъектыДляВыгрузки</content>
+  <content>CommonCommand.ОчиститьОчередьВыгрузки</content>
+</mdclass:Subsystem>

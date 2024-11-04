@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa65d0c5-3536-467b-afee-77c51e764e0c">
+  <producedTypes>
+    <managerType typeId="cd614dd7-a202-467e-9188-afc50039a9b5" valueTypeId="ac8ad03c-0e98-4eb4-ac13-ee945d9ba92c"/>
+    <valueManagerType typeId="92dbf053-1ed7-4aff-9c06-123ca2b76949" valueTypeId="cc1d5627-5fda-480f-814a-0bf7773b6366"/>
+    <valueKeyType typeId="d137b680-04f1-42f1-8e29-8101b1a7be87" valueTypeId="9d9dd805-253a-45a4-a43b-7215ee7c4740"/>
+  </producedTypes>
+  <name>ТестовыйРежим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый режим</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

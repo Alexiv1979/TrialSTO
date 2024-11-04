@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6b09c87-1ed2-496c-be2e-bfc3f798ecb3">
+  <producedTypes>
+    <selectionType typeId="c6366da8-63ac-4c75-8930-4865acd022ea" valueTypeId="4c5de708-7aca-49df-a2c4-b0f14741b551"/>
+    <listType typeId="7d814d7d-3679-41dc-a0f0-696a87c97b91" valueTypeId="d0b8ece2-5e66-403f-be2c-96d391810c21"/>
+    <managerType typeId="f695519c-cfcf-4bcf-af84-b54bb86aa3b9" valueTypeId="a9bd0246-585e-4b4d-86dd-3edf94a6000c"/>
+    <recordSetType typeId="a77247cf-54dc-420d-a27e-4ee52959b82b" valueTypeId="4190f70e-617b-4387-af69-b0232025560f"/>
+    <recordKeyType typeId="f8c8c85c-bd2b-47ef-acda-f3f354b67a45" valueTypeId="a10c06fd-0b06-4f35-875a-8995b6d4b12f"/>
+    <recordType typeId="a0fa0d9c-7575-47b3-a75d-ca8ede8665f0" valueTypeId="94f0a9d0-6d1e-4cef-9d0b-6a020366e4f8"/>
+    <recordManagerType typeId="09c2d5e1-dd4d-4372-8132-96a37a31dfcc" valueTypeId="92eaabc1-ae58-4268-84f0-38f1c4129993"/>
+  </producedTypes>
+  <name>НастройкиДоступаВидовПроводимогоОсмотра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки доступа видов проводимого осмотра</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.НастройкиДоступаВидовПроводимогоОсмотра.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6909c3c9-0bcc-46ee-bb4e-ede2f61a7b6c">
+    <name>ВидПроводимогоОсмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид проводимого осмотра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПроводимогоОсмотра</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e7d5823-4199-4527-9f8d-2e2c078e59a0">
+    <name>ВидСотрудникаСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сотрудника сервиса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСотрудниковСервиса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="445fd670-570b-4888-aa84-2cc3d6361d18">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

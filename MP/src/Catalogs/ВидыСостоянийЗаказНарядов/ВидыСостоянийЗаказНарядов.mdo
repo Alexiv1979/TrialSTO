@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fee465c-c020-477e-8d92-c1dac6df7638">
+  <producedTypes>
+    <objectType typeId="f8c795ad-d5b3-49c2-965e-4477b15e600d" valueTypeId="6c149827-4c57-445d-9539-835ecad3ef6d"/>
+    <refType typeId="b6c6b0d6-8d5d-4645-95f1-f3c55b25f589" valueTypeId="90d7d8e0-7d0d-45ec-943d-121dbe087220"/>
+    <selectionType typeId="58afb54e-75ff-438c-bedf-1f346d3c90ac" valueTypeId="0b66e75e-ff5e-42ad-b301-0db4e9d16788"/>
+    <listType typeId="b6f8e34d-4217-4561-b7ef-a30d01518014" valueTypeId="0bd05ad2-c4fa-4d60-b694-6a82295a5587"/>
+    <managerType typeId="fd89244a-38fa-4139-a3cc-51c3aabe048c" valueTypeId="51f178e3-e648-4166-bea2-9432d71fc358"/>
+  </producedTypes>
+  <name>ВидыСостоянийЗаказНарядов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды состояний заказ нарядов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыСостоянийЗаказНарядов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыСостоянийЗаказНарядов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>10</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="14a06529-1f91-41fd-8928-8b5c86b3629b">
+      <name>ВРаботе</name>
+      <description>В работе</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000003</value>
+      </code>
+    </items>
+    <items id="e146aaf3-0157-4675-b520-3f16153b8dd5">
+      <name>Выполнен</name>
+      <description>Выполнен</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000004</value>
+      </code>
+    </items>
+    <items id="b27d5040-8b21-4846-b35f-5efef9b47bbe">
+      <name>Закрыт</name>
+      <description>Закрыт</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000005</value>
+      </code>
+    </items>
+    <items id="51da0dc8-2e24-49ed-baf2-f4054045ae21">
+      <name>Заявка</name>
+      <description>Заявка</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000001</value>
+      </code>
+    </items>
+    <items id="31931617-7333-4516-9e69-cee2509f7d03">
+      <name>НачатьРаботу</name>
+      <description>Начать работу</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000002</value>
+      </code>
+    </items>
+    <items id="0b604b11-a7f5-4f5c-8e08-f8ce79b02ae4">
+      <name>ОжиданиеЗапасныхЧастей</name>
+      <description>Ожидание запасных частей</description>
+      <code xsi:type="core:StringValue">
+        <value>ЦБ00000001</value>
+      </code>
+    </items>
+    <items id="d061f3e3-f600-425e-a4aa-f312b19aff6f">
+      <name>Оплачен</name>
+      <description>Оплачен</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000009</value>
+      </code>
+    </items>
+    <items id="4ff4bc78-ea79-4bfb-8383-a990df00ea08">
+      <name>ОпозданиеКлиента</name>
+      <description>Опоздание клиента</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000006</value>
+      </code>
+    </items>
+    <items id="1215eea3-0d5c-42c7-8be3-e917ae630778">
+      <name>ОпозданиеНачалаРабот</name>
+      <description>Опоздание начала работ</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000007</value>
+      </code>
+    </items>
+    <items id="29bc60dd-86af-4f8f-a994-e583e42d8f5a">
+      <name>ОпозданиеОкончанияРабот</name>
+      <description>Опоздание окончания работ</description>
+      <code xsi:type="core:StringValue">
+        <value>0000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

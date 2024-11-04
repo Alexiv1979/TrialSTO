@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10f3f25d-18e7-4081-8e1b-0aa161b6101c">
+  <producedTypes>
+    <refType typeId="7031bd49-f4c7-4b4b-ae52-3418e63f3d6d" valueTypeId="37f1fa43-2edb-4338-bb7c-8b90dca6ff22"/>
+    <listType typeId="37870098-ed39-4ee2-89e2-0c7c59abe98f" valueTypeId="c5c0fa42-0e8e-4195-9a68-0f5be320e2b3"/>
+    <managerType typeId="108d361f-4f92-4165-962e-9fbf044346f6" valueTypeId="2e4dc6ae-370d-43e2-af7d-f2109f38399a"/>
+  </producedTypes>
+  <name>ВидВводаТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид ввода текста</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="83d13508-52dc-408b-9545-020965a83421">
+    <name>Клавиатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клавиатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75ec0fa0-665c-4539-9e15-16e1a3698b60">
+    <name>Голосовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голосовой</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

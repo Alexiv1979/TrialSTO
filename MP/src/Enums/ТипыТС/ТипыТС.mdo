@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c70314fe-a454-413e-915d-c248e8c792b3">
+  <producedTypes>
+    <refType typeId="5433373f-27f5-48be-a2d2-fcdc5ad6565b" valueTypeId="93c3f7a1-2ef6-43d9-8c38-20dda5892150"/>
+    <listType typeId="8472f857-c189-486a-914c-1c5ef530b5ae" valueTypeId="e8585cb3-5c6e-49fd-908f-f3cf36388bb3"/>
+    <managerType typeId="b645240d-4fa6-4458-8351-db3cf2eaa38a" valueTypeId="0a630e55-9842-48c3-ac09-5f1687a2f1a2"/>
+  </producedTypes>
+  <name>ТипыТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ТС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6536c749-a617-455a-bcac-911d415b98ce">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f3df3678-9d2b-4678-88fb-7c870628019b">
+    <name>Погрузчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2357070e-e498-430a-b0ec-74226e024529">
+    <name>Прицеп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прицеп</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
